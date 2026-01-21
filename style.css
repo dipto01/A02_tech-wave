@@ -20,6 +20,20 @@
     font-weight: bold;
 }
 
+/* green button */
+.green-btn{
+    border: 2px solid #00FF88;
+    padding: 13px;
+    background-color: transparent;
+    border-radius: 100px;
+    font-weight: bold;
+    color: #00FF88;
+}
+
+.fa-regular{
+    color: #00FF88;
+}
+
 
 /* nav bar section */
 nav{
@@ -53,8 +67,49 @@ nav h1{
 }
 
 
+/* Banner Section */
+.banner-section{
+    height: 760px;
+    background-image: url(assets/hero-bg.png);
+    background-position: center;
+}
 
 
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.banner-section,{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-div{
+    text-align: center;
+    padding-top: 100px;
+}
+.mic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px
+}
+
+.text h1{
+    font-size: 60px;
+}
+
+.text p{
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 24px;
+}
 
 
 
@@ -79,10 +134,17 @@ nav h1{
     font-size: 30px;
 }
 
+/* Banner-section */
+.banner-div{
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-
-
-
+.mic{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 
