@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+/* Inter font by Google */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+/* button */
+.btn{
+    border: none;
+    padding: 13px;
+    background: repeating-linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+
+/* nav bar section */
+nav{
+    height: 90px;
+    background-color: #1A0B2E;
+    border-bottom: 1px solid #412567;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+nav >div{
+    display: flex;
+    gap: 32px;
+}
+
+nav >div >p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#logo-wave{
+    background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
+}
+
+nav h1{
+    font-size: 42px;
+}
+
+
+
+
+
+
+
+/* when big, vanish */
+.when-big-vanish{
+    display: none;
+}
+
+
+
+/* Small Devices */
+@media (max-width: 576px) {
+
+/* Nav-section */
+    nav{
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/* visibility!!! */
+
+.when-small-vanish{
+    display: none;
+}
+
+.when-big-vanish{
+    display: block;
+}
+
+}
