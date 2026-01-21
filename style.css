@@ -111,13 +111,54 @@ nav h1{
     padding-bottom: 24px;
 }
 
+/* About Section */
+.about-section{
+    background-color: #1A0B2E;
+    text-align: center;
+}
+
+.about-div{
+    padding: 20px 200px 120px 200px;
+}
+
+.about-div >p{
+    color: rgba(255, 255, 255, 0.75);
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+}
+
+.about-div h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.stat-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    border: 1px solid rgb(255, 255, 255, .1);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.stat-div div >h2{
+    font-size: 48px;
+    color: #00FF88;
+    margin-bottom: 12px;
+}
+
+.stat-div div >p{
+    color: rgba(255, 255, 255, 0.8);
+}
 
 
 /* when big, vanish */
 .when-big-vanish{
     display: none;
 }
-
 
 
 /* Small Devices */
@@ -144,6 +185,30 @@ nav h1{
 .mic{
     padding-left: 50px;
     padding-right: 50px;
+}
+
+/* About Section */
+.about-div{
+    padding: 20px;
+}
+
+.about-div >p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.stat-div{
+    flex-wrap: wrap;
+}
+.stat-div >div{
+    width: 50%;
+    margin-top: 40px;
+}
+
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
