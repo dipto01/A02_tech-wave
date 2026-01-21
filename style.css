@@ -205,6 +205,64 @@ hr{
   grid-column: span 3;
 }
 
+/* Fatured Section */
+.featured-section{
+    background-color: #1A0B2E;
+    padding: 120px 200px 120px 200px;
+}
+
+.featured-text{
+    text-align: center;
+}
+.featured-text h2{
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.episodes{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ep {
+    background-color: #250D44;
+    border-radius: 20px;
+}
+
+iframe{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.ep-text{
+    padding: 24px;
+}
+.ep-text h4,p{
+    margin-bottom: 12px;
+}
+.ep-text h4{
+    font-size: 24px;
+}
+.ep-text p{
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.ep-text >div{
+    display: flex;
+    gap: 8px
+}
+.ep-text div img{
+    height: 18px;
+}
+
+
+
+
+
+
+
 /* when big, vanish */
 .when-big-vanish{
     display: none;
@@ -306,6 +364,26 @@ hr{
 .card-4 {
   grid-column: span 1;
 }
+
+
+/* Fatured Section */
+.featured-section{
+    padding: 40px 25px 40px 25px;
+}
+
+.featured-text h2{
+    padding-bottom: 30px;
+}
+
+.episodes{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+
+
 
 
 /* visibility!!! */
