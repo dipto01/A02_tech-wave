@@ -81,7 +81,7 @@ nav h1{
     gap: 8px;
 }
 
-.banner-section,{
+.banner-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,6 +154,56 @@ hr{
     color: rgba(255, 255, 255, 0.8);
 }
 
+/* Why Section */
+.why-section{
+    background-color: #230E3D;
+    padding: 120px 200px 120px 200px;
+    text-align: center;
+}
+
+.why-section h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 25px;
+}
+
+.card{
+    padding: 40px;
+    background-color: rgb(53, 17, 101, .4);
+    border-radius: 30px;
+    text-align: left;
+}
+
+.card h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.card img{
+    margin-bottom: 16px;
+}
+
+.card-1 {
+  grid-row: span 2;
+  padding-top: 80px;
+}
+.card-2 {
+  grid-column: span 3;
+}
+.card-3 {
+  grid-column: span 3;
+}
+
+.card-4 {
+  grid-column: span 3;
+}
 
 /* when big, vanish */
 .when-big-vanish{
@@ -187,6 +237,10 @@ nav h1{
     padding-right: 50px;
 }
 
+.text h1{
+    font-size: 48px;
+}
+
 /* About Section */
 .about-div{
     padding: 20px;
@@ -196,6 +250,14 @@ nav h1{
     padding-left: 0px;
     padding-right: 0px;
 }
+.about-div h1{
+    font-size: 38px;
+}
+
+.stat-div div >h2{
+    font-size: 38px;
+}
+
 
 .stat-div{
     flex-wrap: wrap;
@@ -211,6 +273,39 @@ hr{
     margin-bottom: 30px;
 }
 
+/* Why Section */
+.why-section{
+    padding: 40px 25px 40px 25px;
+}
+
+.why-section h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card{
+    padding: 30px;
+}
+
+.card-1 {
+  grid-row: span 1;
+}
+.card-2 {
+  grid-column: span 1;
+}
+.card-3 {
+  grid-column: span 1;
+}
+
+.card-4 {
+  grid-column: span 1;
+}
 
 
 /* visibility!!! */
