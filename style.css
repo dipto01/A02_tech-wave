@@ -56,7 +56,8 @@ nav >div >p{
     color: rgba(255, 255, 255, 0.9);
 }
 
-#logo-wave{
+/* logo wave pattern */
+.logo-wave{
     background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
     background-clip: text;
     color: transparent;
@@ -259,6 +260,42 @@ iframe{
 
 
 
+/* Fotter Section*/
+.footer-section{
+    background-image: url(./assets/footer-bg.png);
+    /* height: 500px; */
+    background-position: center;
+}
+
+.footer-div{
+    padding: 120px;
+    text-align: center;
+}
+.footer-div >h1{
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+.footer-div p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.socials >div>img{
+    height: 20px;
+}
+.socials >div{
+    display: flex;
+    gap: 8px;
+}
+
+
 
 
 
@@ -381,6 +418,20 @@ hr{
     flex-direction: column;
 }
 
+
+/* Fotter Section*/
+.footer-div{
+    padding: 40px;
+}
+.footer-div >h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.socials{
+    gap: 20px;
+    margin-bottom: 20px;
+}
 
 
 
