@@ -258,6 +258,53 @@ iframe{
     height: 18px;
 }
 
+/* !Host Section */
+.host-section{
+    background-color: #1A0B2E;
+    padding: 0px 200px 120px 200px;
+}
+
+.host-head h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.host-card{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.host-text >h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.host-text >p{
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.host-socials{
+    display: flex;
+    gap: 8px;
+}
+.img{
+    padding: 1px;
+    border: 2px solid #533C72;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.host-socials >img{
+    height: 20px;
+}
+
 
 
 /* Fotter Section*/
@@ -416,6 +463,42 @@ hr{
     display: flex;
     gap: 20px;
     flex-direction: column;
+}
+
+
+/* !Host Section */
+.host-section{
+    background-color: #1A0B2E;
+    padding: 0px 20px 40px 20px;
+}
+
+.host-head h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.host-card{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 24px;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.host-card >img{
+    height: 150px;
+    width: 150px;
+}
+
+.host-text >h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.host-socials{
+    justify-content: center;
 }
 
 
